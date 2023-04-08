@@ -1,4 +1,4 @@
-name: Create Release ZIP
+name: Release artifact creation
 
 on:
   release:
@@ -15,17 +15,17 @@ jobs:
       pull-requests: write
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Create ZIP file
-        run: zip -r release.zip . -x '*.git*' '.github/*'
+        run: zip -r CookieDeleter.zip . -x '*.git*' '.github/*'
 
       - name: Upload ZIP file to release
-        uses: actions/upload-release-asset@v1
+        uses: actions/upload-release-asset@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ github.event.release.upload_url }}
-          asset_path: release.zip
-          asset_name: release.zip
+          asset_path: CookieDeleter.zip
+          asset_name: CookieDeleter.zip
           asset_content_type: application/zip

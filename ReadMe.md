@@ -1,4 +1,4 @@
-# Cookie Deleter
+# Cookie Deleter [![Create Release ZIP](https://github.com/Jasmin25/cookie-deleter/actions/workflows/create-release-zip.yml/badge.svg)](https://github.com/Jasmin25/cookie-deleter/actions/workflows/create-release-zip.yml)
 
 Cookie Deleter is a lightweight and user-friendly Chrome extension designed to help users manage and delete cookies for specific websites. It enables users to maintain a customizable list of domains for which cookies should be automatically deleted whenever they visit them. By offering an easy way to manage cookies on a domain-by-domain basis, this extension aims to enhance user privacy while browsing the internet.
 
@@ -15,11 +15,11 @@ There are two ways to install the Cookie Deleter extension:
 
 ### Method 1: Install from the release ZIP file
 1. Go to the [Releases](https://github.com/Jasmin25/cookie-deleter/releases) page of the GitHub repository.
-2. Download the .zip file for the latest release.
-3. Extract the contents of the .zip file to a folder on your computer.
+2. Download the CookieDeleter.zip file for the latest release.
+3. Extract the contents of the CookieDeleter.zip file to a folder on your computer.
 4. Open Google Chrome and go to `chrome://extensions/`.
 5. Enable "Developer mode" by toggling the switch in the top-right corner.
-6. Click the "Load unpacked" button and select the folder where you extracted the .zip file.
+6. Click the "Load unpacked" button and select the folder where you extracted the CookieDeleter.zip file.
 7. The Cookie Deleter extension should now appear in the list of installed extensions.
 
 ### Method 2: Install using git clone

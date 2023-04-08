@@ -8,6 +8,11 @@ on:
 jobs:
   create-zip:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+      packages: write
+      pull-requests: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2

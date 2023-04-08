@@ -12,7 +12,7 @@ Cookie Deleter is a lightweight and user-friendly Chrome extension designed to h
 ## Installation
 
 1. Clone the repository or download the source code:
-```git clone https://github.com/yourusername/cookie-deleter.git ```
+```git clone https://github.com/Jasmin25/cookie-deleter.git```
 2. Open the Chrome browser and navigate to `chrome://extensions/`.
 3. Enable "Developer mode" in the top right corner of the page.
 4. Click the "Load unpacked" button and select the `cookie-deleter` folder where you cloned or downloaded the source code.

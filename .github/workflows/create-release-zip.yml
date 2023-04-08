@@ -21,7 +21,7 @@ jobs:
         run: zip -r CookieDeleter.zip . -x '*.git*' '.github/*'
 
       - name: Upload ZIP file to release
-        uses: actions/upload-release-asset@v2
+        uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:

@@ -11,24 +11,29 @@ Cookie Deleter is a lightweight and user-friendly Chrome extension designed to h
 
 ## Installation
 
-There are two ways to install the Cookie Deleter extension:
+There are three ways to install the Cookie Deleter extension:
 
-### Method 1: Install from the release ZIP file
+### Method 1: Install from the Chrome Web Store
+1. Visit the [Cookie Deleter Chrome Web Store page](https://chrome.google.com/webstore/detail/cookie-deleter/pldagopcgfgfckccjmdedlglhpbmhmil?hl=en&authuser=0).
+2. Click the "Add to Chrome" button and confirm the installation.
+3. The Cookie Deleter extension should now appear in your browser's toolbar.
+
+### Method 2: Install from the release ZIP file
 1. Go to the [Releases](https://github.com/Jasmin25/cookie-deleter/releases) page of the GitHub repository.
 2. Download the CookieDeleter.zip file for the latest release.
 3. Extract the contents of the CookieDeleter.zip file to a folder on your computer.
 4. Open Google Chrome and go to `chrome://extensions/`.
 5. Enable "Developer mode" by toggling the switch in the top-right corner.
-6. Click the "Load unpacked" button and select the folder where you extracted the CookieDeleter.zip file.
-7. The Cookie Deleter extension should now appear in the list of installed extensions.
+6. Click the "Load unpacked" button and select the folder where you extracted the CookieDeleter.zip
 
-### Method 2: Install using git clone
+### Method 3: Install using git clone
 1. Clone the GitHub repository to your local machine:
     ```git clone https://github.com/Jasmin25/cookie-deleter.git```
 2. Open Google Chrome and go to `chrome://extensions/`. 
 3. Enable "Developer mode" by toggling the switch in the top-right corner.
 4. Click the "Load unpacked" button and select the folder where you cloned the GitHub repository.
 5. The Cookie Deleter extension should now appear in the list of installed extensions.
+
 
 ## Usage
 

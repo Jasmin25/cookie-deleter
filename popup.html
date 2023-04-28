@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Link to the Tailwind CSS stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   </head>
   <body class="font-sans p-4" style="width: 350px;">
+    <!-- Title -->
     <h1 class="text-xl font-semibold mb-2">Cookie Deleter</h1>
+    <!-- Instructions -->
     <p class="mb-2">Enter the domains to delete cookies from (one per line):</p>
+    <!-- Textarea for user input -->
     <textarea id="domains" class="w-full h-24 p-2 mb-2 border border-gray-300"></textarea>
+    <!-- Container for buttons -->
     <div class="flex space-x-2">
+      <!-- Delete Cookies button -->
       <button id="deleteCookies" class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded w-full">Delete Cookies</button>
+      <!-- Save Domains button -->
       <button id="saveDomains" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded w-full">Save Domains</button>
     </div>
+    <!-- Link to the popup JavaScript file -->
     <script src="popup.js"></script>
   </body>
 </html>

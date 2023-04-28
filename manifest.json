@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Cookie Deleter",
   "version": "1.0.5",
-  "description": "Deletes cookies for specified sites",
+  "description": "Automatically deletes cookies for specified sites",
   "permissions": [
     "cookies",
     "storage"
